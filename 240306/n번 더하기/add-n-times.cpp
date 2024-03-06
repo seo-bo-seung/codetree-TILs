@@ -6,7 +6,7 @@ int main() {
     std::cin>>a>>n;
     for(int i=0; i<n; i++){
         a+=n;
-        std::cout<<a<<endl;
+        std::cout<<a<<std::endl;
     }
     return 0;
 }
