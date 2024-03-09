@@ -9,10 +9,14 @@ int main() {
     a=a+b;
     for(int i=0; i<a.size(); i++){
         if(a[i]==' '){
-            a.erase(i,1);
+            int n=0;
+            while(1){
+                if(a[i+n]!=' ') break;
+                else n++;
+            }
+            a.erase(i,n);
         }
     }
-   
     cout<<a;
     return 0;
 }
