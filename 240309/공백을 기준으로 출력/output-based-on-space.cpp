@@ -6,16 +6,13 @@ int main() {
     string a,b;
     getline(cin,a);
     getline(cin,b);
+    a=a+b;
     for(int i=0; i<a.size(); i++){
         if(a[i]==' '){
             a.erase(i,1);
         }
     }
-    for(int i=0; i<b.size(); i++){
-        if(b[i]==' '){
-            b.erase(i,1);
-        }
-    }
-    cout<<a<<b;
+   
+    cout<<a;
     return 0;
 }
