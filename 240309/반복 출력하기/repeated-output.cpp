@@ -1,8 +1,7 @@
 #include <iostream>
 void pprint(int n){
     for(int i=0; i<n; i++){
-        printf("%s","12345^&*()_");
-        printf("\n");
+        printf("%s","12345^&*()_\n");
     }
 }
 
