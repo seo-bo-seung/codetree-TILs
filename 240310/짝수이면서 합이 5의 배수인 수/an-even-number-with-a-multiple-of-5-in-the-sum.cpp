@@ -3,7 +3,7 @@ using namespace std;
 void ans(int n){
     int sum=0;
     sum=n/10+n%10;
-    if(sum%5==0) cout<<"Yes";
+    if(sum%5==0 && n%2==0) cout<<"Yes";
     else cout<<"No";
 }
 
