@@ -9,7 +9,7 @@ bool Isyear(int y){
     else if(y%100==0 && y%400!=0){
         t=false;
     }
-    else false;
+    else t=false;
     return t;
 } 
 
