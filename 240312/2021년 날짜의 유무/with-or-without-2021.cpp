@@ -6,10 +6,10 @@ bool IsExist(int m, int d){
         if(d<=31) return true;
         else return false;
     }
-    /*else if(m==4 || m==6 || m==9 || m=11){
+    else if(m==4 || m==6 || m==9 ||m==11){
         if(d<=30) return true;
         else return false;
-    }*/
+    }
     else if(m==2){
         if(d<=28) return true;
         else return false;
