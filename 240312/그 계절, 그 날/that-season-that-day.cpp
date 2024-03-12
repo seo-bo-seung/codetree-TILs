@@ -6,7 +6,7 @@ bool IsYoon(int y){
     if(y%4==0){
         flag=true;
         if(y%100==0){
-            if(y%400) flag=true;
+            if(y%400==0) flag=true;
             else flag=false;
         }
 
