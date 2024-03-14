@@ -9,7 +9,10 @@ void IsAns(string a, string b){
         if(a[i]==b[0]){
             for(int j=0; j<b.size(); j++){
                 if(a[i+j]==b[j]) flag=true;
-                else flag=false; 
+                else {
+                    flag=false;
+                    break;
+                } 
             }
             if(flag) {
                 idx=i;
