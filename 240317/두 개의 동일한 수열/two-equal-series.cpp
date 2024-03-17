@@ -15,12 +15,11 @@ int main() {
     }
     sort(arr1,arr1+n);
     sort(arr2,arr2+n);
-    int flag=0;
+    int flag=1;
     for(int i=0; i<n; i++){
-        if(arr1[i]==arr2[i]){
-            flag=1;
+        if(arr1[i]!=arr2[i]){
+            flag=0;
         }
-        else flag=0;
     }
     if(flag==1){
         cout<<"Yes";
