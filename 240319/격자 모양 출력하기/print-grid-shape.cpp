@@ -6,7 +6,7 @@ int main() {
     int a,b;
     cin>>n>>m;
     int arr[11][11]={0};
-    for(int i=1; i<=n; i++){
+    for(int i=1; i<=m; i++){
         cin>>a>>b;
         arr[a][b]=a*b;
     }
