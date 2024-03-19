@@ -28,9 +28,7 @@ int main() {
     }
     int idx;
     int min = 100;
-    for (int j = 0; j < 5; j++) {
-        printf("%c %d\n", spy[j].name, spy[j].score);
-    }
+    
 
     for (int i = 0; i < 5; i++) {
         if (spy[i].score < min) {
