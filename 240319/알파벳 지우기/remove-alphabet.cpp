@@ -8,18 +8,21 @@ int main() {
     string a,b;
     cin>>a>>b;
     for(int i=0; i<a.size();i++){
-        if(a[i]>=97){
+        if(a[i]>=65){
             a.erase(i,1);
+            i--;
         }
     }
     for(int i=0; i<b.size();i++){
-        if(b[i]>=97){
+        if(b[i]>=65){
             b.erase(i,1);
+            i--;
         }
     }
+   
     int c,d;
-    c=stoi(a);
-    d=stoi(b);
+   c=stoi(a);
+   d=stoi(b);
     cout<<c+d;
     return 0;
 }
