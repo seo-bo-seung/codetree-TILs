@@ -37,7 +37,7 @@ int main() {
     for(int i=0; i<n; i++){
         if(pre[i].weather=="Rain"){
             if(min>pre[i].date){
-                min=date;
+                min=pre[i].date;
                 idx=i;
             }
         }
