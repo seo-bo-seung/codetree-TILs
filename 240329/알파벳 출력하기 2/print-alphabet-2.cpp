@@ -13,6 +13,7 @@ int main() {
         for(int j=0; j<n-i; j++){
             cout<<A<<" ";
             A++;
+            if(A>90) A=65;
         }
         cout<<endl;
     }
