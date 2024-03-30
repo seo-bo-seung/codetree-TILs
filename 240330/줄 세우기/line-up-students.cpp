@@ -18,7 +18,7 @@ class Student {
 bool cmp(Student a, Student b) {
     if(a.tall==b.tall){
         if(a.weight==b.weight){
-            a.number>b.number;
+            a.number<b.number;
         }
         else{
             a.weight>b.weight;
