@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
+#include <cstdio>
 using namespace std;
 
 class Per{
@@ -34,16 +35,17 @@ int main() {
         cin>>name>>tall>>weight;
         per[i]=Per(name,tall,weight);
     }
+    
     sort(per,per+5,cmp);
     cout<<"name"<<endl;
     for(int i=0; i<5; i++){
-        cout<<per[i].name<<" "<<per[i].tall<<" "<<per[i].weight<<endl;
+        cout<<per[i].name<<" "<<per[i].tall<<" "; printf("%.1f\n", per[i].weight);
     }
 
     sort(per,per+5,cmp2);
     cout<<endl<<"height"<<endl;
     for(int i=0; i<5; i++){
-        cout<<per[i].name<<" "<<per[i].tall<<" "<<per[i].weight<<endl;
+        cout<<per[i].name<<" "<<per[i].tall<<" "; printf("%.1f\n", per[i].weight);
     }
     return 0;
 }
