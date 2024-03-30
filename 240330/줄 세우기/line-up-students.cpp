@@ -21,7 +21,7 @@ bool cmp(Student a, Student b) {
             a.number<b.number;
         }
         else{
-            a.weight>b.weight;
+            a.weight<b.weight;
         }
     }
     return a.tall > b.tall;
