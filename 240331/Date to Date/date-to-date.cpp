@@ -14,7 +14,7 @@ int main() {
 
         if(d1>num_of_days[m1]){
             m1++;
-            d1=0;
+            d1=1;
         }
     }
     cout<<elapsed_days;
