@@ -28,7 +28,7 @@ int main() {
     int n;
     cin>>n;
     int x,y;
-    XY arr[100];
+    XY arr[1001];
     for(int i=0; i<n; i++){
         cin>>x>>y;
         arr[i]=XY(x,y,i+1);
