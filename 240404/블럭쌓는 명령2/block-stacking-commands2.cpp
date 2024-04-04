@@ -13,7 +13,7 @@ int main() {
             arr[j]++;
         }
     }
-    int max=0;
+    int max=1;
     for(int i=1; i<=k; i++){
         if(arr[i]>max) max=arr[i];
     }
