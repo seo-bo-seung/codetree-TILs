@@ -28,7 +28,7 @@ int main() {
             if(it!=l.end()) it++;
         }
         else if(a=='D'){
-            if(it!=l.end()) l.erase(it);
+            if(it!=l.end()) it=l.erase(it);
         }
         else if(a=='P'){
             cin>>b;
