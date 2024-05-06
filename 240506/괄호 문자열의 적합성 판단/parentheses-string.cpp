@@ -9,7 +9,7 @@ int main() {
     cin>>a;
     stack<char> s;
     for(int i=0; i<a.size(); i++){
-        if(s.empty() || a[i]==s.top()){
+        if(s.empty()==true || a[i]==s.top()){
             s.push(a[i]);
         }
         else if(a[i]!=s.top()){
